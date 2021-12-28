@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#navbar{
+    background-color: #921f1f;
+    padding: 13px 14px;
+    font-family: 'Zen Antique', sans-serif;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 17px;
+    padding: 13px 30px;
+    color: wheat;
+}
+#navbar li a:hover{
+    color: black;
+}
+#introSection{
+    background: center / cover no-repeat url(/static/bg.jpg);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Zen Antique', sans-serif;
+    justify-content: center;
+    font-size: 35px;
+    padding-bottom: 40px;
+    height: 310px;
+    /* background-color: red;  */
+}
+#introSection div.small{
+    font-size: 27px;
+    padding: 10px;
+}
+#missionSection{
+    height: 300px;
+    background-color:white;    
+    width: 67%;
+    margin: auto;
+}
+#missionSection h2{
+    /* font-size: 30px; */
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Zen Antique', sans-serif;
+}
+.card{
+    display: inline-block;
+    background-color: rgb(243, 224, 243);
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    height: 210px;
+    margin: 23px 20px;
+}
+.card h3{
+    text-align: center;
+    margin-top: 12px;
+}
+#sponsorsSection{
+    height: 300px;
+    background-color: #f3ababe5;    
+}
+#sponsorsSection h2{
+    /* font-size: 30px; */
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Zen Antique', sans-serif;
+}
+#footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    text-align: center;  
+}

@@ -1,0 +1,23 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+
+block content
+    section#introSection 
+      div Welcome to Mayank's Dance Academy
+      div.small Eat Dance Sleep Repeat
+    section#missionSection 
+      h2 Our Mission
+      div.card
+        h3 Dance Perfection
+      div.card
+        h3 Dance the way you like
+      div.card
+        h3 Expert teaching
+    section#sponsorsSection 
+      h2 Our Sponsors
